@@ -1,0 +1,253 @@
+{
+  "regions": [
+    {
+      "region_id": 1,
+      "name": "Howrah",
+      "state": "West Bengal",
+      "language_code": "bn"
+    },
+    {
+      "region_id": 2,
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "language_code": "hi"
+    }
+  ],
+  "historical_climate": [
+    {
+      "region_id": 1,
+      "decade_year": 1980,
+      "avg_temp_c": 28.5,
+      "soil_carbon_pct": 1.80,
+      "yield_impact_pct": 10
+    },
+    {
+      "region_id": 1,
+      "decade_year": 1990,
+      "avg_temp_c": 29.2,
+      "soil_carbon_pct": 1.40,
+      "yield_impact_pct": 5
+    },
+    {
+      "region_id": 1,
+      "decade_year": 2000,
+      "avg_temp_c": 30.1,
+      "soil_carbon_pct": 1.00,
+      "yield_impact_pct": 0
+    },
+    {
+      "region_id": 1,
+      "decade_year": 2010,
+      "avg_temp_c": 31.0,
+      "soil_carbon_pct": 0.70,
+      "yield_impact_pct": -10
+    },
+    {
+      "region_id": 1,
+      "decade_year": 2026,
+      "avg_temp_c": 32.1,
+      "soil_carbon_pct": 0.40,
+      "yield_impact_pct": -25
+    }
+  ],
+  "remedies_catalog": [
+    {
+      "remedy_id": 1,
+      "problem_keyword": "yellow leaves",
+      "condition": "Nitrogen & Potassium Chlorosis (Leaf Yellowing)",
+      "pathogen_type": "Abiotic Nutrient Deficiency & Compaction",
+      "severity": "Moderate",
+      "urgency_hours": 48,
+      "solution_title": "Cow Dung & Seasoned Wood Ash Manure",
+      "instructions": "Mix dried cow dung with seasoned wood ash in a 3:1 ratio. Gently dig into the soil at the base of the plant to restore nitrogen, potassium, and carbon naturally.",
+      "preparation_steps": [
+        "Collect 5 kg of sun-dried cow dung and crush finely into a crumbly powder.",
+        "Add 1.5 kg of seasoned hardwood ash (from kitchen stove/chulha) in a 3:1 proportion.",
+        "Blend in 250 g of powdered dry neem leaves to repel subsurface termites and nematodes.",
+        "Moisten slightly with water or fermented rice starch water and let rest for 2 hours in shade."
+      ],
+      "dosage_schedule": "Apply 1 generous handful (150g) around the root zone, 5-8 cm away from the main stem. Water lightly.",
+      "best_timing": "Early morning (6:00 AM - 8:30 AM) when topsoil moisture is high.",
+      "economic_impact": {
+        "organic_cost_inr": "₹0 - ₹20 (livestock & kitchen ash)",
+        "chemical_cost_inr": "₹750 - ₹1,200 (Synthetic Urea + MOP)",
+        "net_savings_inr": "₹730 - ₹1,180"
+      },
+      "cultural_prevention": "Avoid over-irrigation. Apply rice straw mulch to stimulate indigenous earthworm activity.",
+      "heritage_seed_rec": "Gobindobhog Rice",
+      "seed_traits": "Deep-rooting traditional cultivar, natural high tolerance to nitrogen fluctuations.",
+      "language_translations": {
+        "bn": "শুকনো গোবরের সাথে কাঠের ছাই ৩:১ অনুপাতে মিশিয়ে গাছের গোড়ার মাটিতে প্রয়োগ করুন। এতে প্রাকৃতিকভাবে নাইট্রোজেনের ঘাটতি দূর হবে।",
+        "hi": "सूखे गोबर में लकड़ी की राख 3:1 के अनुपात में मिलाकर पौधे की जड़ों के पास मिट्टी में डालें। इससे नाइट्रोजन और पोटाश की कमी प्राकृतिक रूप से पूरी होगी।"
+      }
+    },
+    {
+      "remedy_id": 2,
+      "problem_keyword": "pest",
+      "condition": "Foliage Chewing & Sucking Insect Attack",
+      "pathogen_type": "Insect Vector Infestation (Caterpillars & Leaf Miners)",
+      "severity": "High",
+      "urgency_hours": 24,
+      "solution_title": "Neem Seed Kernel Extract Spray (NSKE 5%)",
+      "instructions": "Crush 50g neem seeds or fresh neem leaves, boil in 1L of water with 2 drops of organic mustard soap. Cool, strain, and spray early in the morning.",
+      "preparation_steps": [
+        "Crush 50 g mature neem seed kernels or 100 g freshly pounded neem leaves.",
+        "Soak overnight in 1 liter of fresh pond or tube-well water.",
+        "Filter the extract through a clean muslin cloth to remove coarse particulate.",
+        "Stir in 5 ml of pure cold-pressed mustard oil or 2 drops of mild washing soap as a natural wetting agent."
+      ],
+      "dosage_schedule": "Spray thoroughly on both upper and lower leaf surfaces. Repeat after 5 days for 2 cycles.",
+      "best_timing": "Early morning before 7:30 AM or evening after 5:00 PM to protect honeybees.",
+      "economic_impact": {
+        "organic_cost_inr": "₹15 - ₹30 (farmyard neem)",
+        "chemical_cost_inr": "₹850 - ₹1,400 (Chemical organophosphates)",
+        "net_savings_inr": "₹820 - ₹1,370"
+      },
+      "cultural_prevention": "Plant yellow sticky traps and African marigold borders around field perimeters.",
+      "heritage_seed_rec": "Desi Kasundi Mustard",
+      "seed_traits": "High glucosinolate content, naturally repels foliar pests and diamondback moth.",
+      "language_translations": {
+        "bn": "৫০ গ্রাম নিম পাতা বা বীজ ১ লিটার জলে ফুটিয়ে ঠাণ্ডা করুন। সকালে পোকা আক্রান্ত পাতার নিচে স্প্রে করুন।",
+        "hi": "50 ग्राम नीम की पत्तियों को 1 लीटर पानी में उबालकर ठंडा करें। सुबह के समय पत्तों पर स्प्रे करें।"
+      }
+    },
+    {
+      "remedy_id": 3,
+      "problem_keyword": "aphids",
+      "condition": "Aphid & Whitefly Sap-Sucking Cluster",
+      "pathogen_type": "Sucking Hemiptera & Vector of Viral Mosaic",
+      "severity": "High",
+      "urgency_hours": 24,
+      "solution_title": "Chili-Garlic Bio-Repellent & Asafoetida Drench",
+      "instructions": "Grind 5 green chilies and 1 bulb of garlic in 500ml water. Let ferment for 24 hours, strain, and dilute with 2L water before spraying.",
+      "preparation_steps": [
+        "Finely crush 10 hot bird's eye chilies and 1 whole bulb of garlic.",
+        "Infuse in 500 ml water along with a pea-sized pinch of hing (asafoetida).",
+        "Allow to steep in an earthen pot for 24 hours to ferment capsaicinoids and sulfur compounds.",
+        "Strain through double cotton filter and dilute with 2.5 liters of clean water."
+      ],
+      "dosage_schedule": "Target the underside of tender shoots and buds where aphid colonies cluster.",
+      "best_timing": "After 4:30 PM when direct sunlight has waned to avoid leaf scalding.",
+      "economic_impact": {
+        "organic_cost_inr": "₹10 - ₹25 (kitchen ingredients)",
+        "chemical_cost_inr": "₹650 - ₹1,100 (Imidacloprid chemical)",
+        "net_savings_inr": "₹625 - ₹1,075"
+      },
+      "cultural_prevention": "Encourage ladybird beetles and lacewings; spray strong water jet to dislodge early colonies.",
+      "heritage_seed_rec": "Desi Pusa Jwala Pepper",
+      "seed_traits": "Hardened cuticle leaves, highly resistant to viral leaf curl and aphid vectors.",
+      "language_translations": {
+        "bn": "৫টি কাঁচা লঙ্কা ও ১টি রসুন থেঁতো করে জলে ২৪ ঘণ্টা রেখে ছেঁকে স্প্রে করুন। জাব পোকা দূরে পালাবে।",
+        "hi": "5 हरी मिर्च और 1 लहसुन पीसकर 24 घंटे पानी में रखें, फिर छानकर छिड़काव करें। माहो कीट तुरंत नष्ट होंगे।"
+      }
+    },
+    {
+      "remedy_id": 4,
+      "problem_keyword": "root rot",
+      "condition": "Rhizoctonia & Fusarium Root Decaying Wilt",
+      "pathogen_type": "Soil-Borne Fungal Spores & Anaerobic Decay",
+      "severity": "Critical",
+      "urgency_hours": 12,
+      "solution_title": "Sour Buttermilk & Wild Turmeric Bio-Fungicide",
+      "instructions": "Mix 3-day-old sour buttermilk with 1 spoonful of wild turmeric powder. Drench soil to combat fungal spores naturally.",
+      "preparation_steps": [
+        "Take 1 liter of 3-day-old sour desi cow buttermilk (sour curd whey).",
+        "Add 2 tablespoons (30 g) of freshly ground wild raw turmeric (curcumin).",
+        "Add 100 ml of fermented cow urine (optional indigenous booster) and dilute with 5 liters of water.",
+        "Stir clockwise with a wooden stick for 5 minutes to aerate lactic acid cultures."
+      ],
+      "dosage_schedule": "Drench 250 ml of solution directly into the root zone soil of each infected plant.",
+      "best_timing": "Morning when soil is warm, ensuring root uptake.",
+      "economic_impact": {
+        "organic_cost_inr": "₹10 - ₹20 (dairy by-product)",
+        "chemical_cost_inr": "₹900 - ₹1,650 (Carbendazim / Mancozeb)",
+        "net_savings_inr": "₹880 - ₹1,630"
+      },
+      "cultural_prevention": "Improve field bed elevation by 10 cm; stop watering immediately until surface dries.",
+      "heritage_seed_rec": "Radhuni Heritage Seed",
+      "seed_traits": "Natural anti-fungal root exudates, immune to seedling damping-off.",
+      "language_translations": {
+        "bn": "পুরনো টক ঘোলের সাথে এক চামচ কাঁচা হলুদ গুঁড়ো মিশিয়ে গাছের গোড়ার মাটিতে দিন। ছত্রাক ও শিকড় পচা বন্ধ হবে।",
+        "hi": "खट्टी छाछ में हल्दी मिलाकर जड़ों की मिट्टी में डालें। फंगस और जड़ गलन की समस्या दूर होगी।"
+      }
+    },
+    {
+      "remedy_id": 5,
+      "problem_keyword": "stem borer",
+      "condition": "Yellow Stem Borer & Dead Heart / White Head",
+      "pathogen_type": "Scirpophaga Incertulas Larval Bore",
+      "severity": "Critical",
+      "urgency_hours": 24,
+      "solution_title": "Fermented Castor & Datura Bitter Leaf Decoction",
+      "instructions": "Boil 100g datura, castor, and calotropis leaves in 2L cow urine. Dilute 1:10 with water and spray on tillers.",
+      "preparation_steps": [
+        "Gather 100 g each of datura leaves, castor leaves, and neem leaves.",
+        "Boil gently in 2 liters of water until reduced by half.",
+        "Strain liquid and stir in 1 tablespoon of asafoetida powder.",
+        "Dilute 200 ml of concentrate in 10 liters of spray water."
+      ],
+      "dosage_schedule": "Direct nozzle right down into the leaf sheath whorls and plant stems where larvae bore.",
+      "best_timing": "Late afternoon (4:00 PM - 6:00 PM).",
+      "economic_impact": {
+        "organic_cost_inr": "₹15 - ₹35",
+        "chemical_cost_inr": "₹1,100 - ₹1,800 (Cartap Hydrochloride)",
+        "net_savings_inr": "₹1,065 - ₹1,765"
+      },
+      "cultural_prevention": "Clip top 2 inches of rice seedling leaves before transplanting to remove egg masses.",
+      "heritage_seed_rec": "Kanakchur Indigenous Rice",
+      "seed_traits": "Dense silica-enriched outer culm prevents stem borer penetration.",
+      "language_translations": {
+        "bn": "ধুতুরা ও নিম পাতা সিদ্ধ করে হিং মিশিয়ে গাছের কান্ডের খাঁজে স্প্রে করুন। মাজরা পোকা বিনষ্ট হবে।",
+        "hi": "धतूरा और नीम के पत्तों का काढ़ा बनाकर हींग मिलाकर तने के पास छिड़कें। तना छेदक नष्ट होगा।"
+      }
+    },
+    {
+      "remedy_id": 6,
+      "problem_keyword": "dry soil",
+      "condition": "Severe Heat Stress & Soil Compaction Desiccation",
+      "pathogen_type": "Climatic Thermal Shock & Transpiration Deficit",
+      "severity": "Moderate",
+      "urgency_hours": 36,
+      "solution_title": "Banana Pseudostem & Paddy Straw Hydro-Mulch",
+      "instructions": "Lay 3-inch thick dry straw mulch infused with diluted cow dung slurry around crop rows to lock soil moisture.",
+      "preparation_steps": [
+        "Chop waste banana pseudostem or dry paddy straw into 4-inch pieces.",
+        "Prepare a slurry of 2 kg cow dung in 15 liters of pond water.",
+        "Spread straw 8 cm deep along crop beds, then sprinkle slurry lightly on top.",
+        "The microbial crust seals moisture and lowers ground temperature by 4°C to 6°C."
+      ],
+      "dosage_schedule": "Cover inter-row spaces uniformly. Retains moisture for 7-10 days without irrigation.",
+      "best_timing": "Morning before peak sun irradiance.",
+      "economic_impact": {
+        "organic_cost_inr": "₹0 (farm waste biomass)",
+        "chemical_cost_inr": "₹600 - ₹950 (Hydrogel chemical polymers)",
+        "net_savings_inr": "₹600 - ₹950"
+      },
+      "cultural_prevention": "Intercrop with pigeon pea (arhar) to provide micro-shade and atmospheric nitrogen.",
+      "heritage_seed_rec": "Dudheshwar Drought-Resilient Paddy",
+      "seed_traits": "Waxier leaf surface prevents water evaporation during dry spells.",
+      "language_translations": {
+        "bn": "ধানের খড় ও গোবর জলের মালচিং দিয়ে মাটির আর্দ্রতা ধরে রাখুন। ৭ দিন পর্যন্ত সেচ ছাড়াই মাটি ঠান্ডা থাকবে।",
+        "hi": "पुआल और गोबर के घोल से मल्चिंग करें। धूप में भी मिट्टी में नमी 7 दिनों तक सुरक्षित रहेगी।"
+      }
+    }
+  ],
+  "community_alerts": [
+    {
+      "alert_id": 1,
+      "region_id": 1,
+      "alert_type": "Weather",
+      "message": "Sudden heatwave detected across Howrah basin! Mulch your soil with dry straw/banana leaves today to lock in moisture.",
+      "broadcast_date": "2026-10-02T06:00:00.000Z",
+      "is_active": true
+    },
+    {
+      "alert_id": 2,
+      "region_id": 1,
+      "alert_type": "Pest",
+      "message": "Neighboring cluster reported early aphid swarm. Inspect underside of leaves and prepare Neem spray.",
+      "broadcast_date": "2026-10-01T15:30:00.000Z",
+      "is_active": true
+    }
+  ]
+}

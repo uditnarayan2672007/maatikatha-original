@@ -1,0 +1,22 @@
+{
+  "name": "maatikatha-monorepo",
+  "version": "1.0.0",
+  "description": "Zero-Hardware Voice-First Farming Assistant with AI Predictive Modeling",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node dev.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "node server/test_api.js"
+  },
+  "keywords": [
+    "agritech",
+    "gemini",
+    "grok",
+    "voice-ai",
+    "mongodb"
+  ],
+  "author": "MaatiKatha Team",
+  "license": "ISC"
+}
